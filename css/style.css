@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 115, 0, 0.349);
+    scroll-behavior: smooth;
+    font-family: "SulSans", Helvetica, sans-serif;
+}
+header{
+    background-color: red;
+    padding: 29px;
+    text-align: left;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 8%;
+    right: 5%;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 5%;
+    color:white
+}
+a:hover{
+    color:red;
+    background-color: white;
+}
+.itens{
+    margin-left: 10px;
+}
+.logo-site{
+    border-radius: 50%;
+    width: 5%;
+}
+.img-lanche{
+    width:100%;
+    padding: 10%;
+}
+#procurar{
+    position: absolute;
+    border-radius: 5%;
+    border: 2px black;
+    width: 89px;
+    right: 5%;
+    top: 15%;
+}
+section{
+    width: 33%;
+    height: 400px;
+    margin-left: -3px;
+    display: inline-block;
+    padding: 5%;
+}
+footer{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 5%;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+.carrinho{
+    position: absolute;
+    width: 20px;
+    top: 15%;
+    right: 15%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilologin.css">
+    <link rel="shortcut icon" href="img/apple-icon.png" type="image/x-icon">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h1> IFome</h1>
+            <p> Insira dados para acessar </p>
+            <form id="slide-form"method="GET" action="/pedidos">
+                <!-- tras informacoes  -->
+                <div>
+                    <label for="nome"> Nome Completo</label>
+                    <input class="login" type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="email"> Email </label>
+                    <input class="login" type="email" id="email" name="email" placeholder="email@email.com">
+                </div>
+                <div>
+                    <label for="senha"> Senha </label>
+                    <input class="login" type="password" id="senha" name="senha" placeholder="senha 6 digitos">
+                </div>
+                <!-- <input type ="submit" value ="entrar">   -->
+                <button type="submit">entrar</button> <!-- preferivel usar button ao input -->
+                <button type="cancelar">cancelar</button> <!-- botao apaga tudo -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 115, 0, 0.349);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left; /* alinhar para esquerda sempre */
+    padding: 25px;
+}
+header{
+    padding: 10px;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 8%;
+    right: 5%;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5%;
+    transition: color 0.3s ease-in-out; 
+    color:white
+}
+a:hover{
+    color:red;
+    background-color: white;
+}
+.itens{
+    margin-left: 10px;
+}
+form{
+    background:center;
+}
+.container{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-position: center;
+    background: red;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+button{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background-color: white;
+    outline: none;
+    font-weight: 500;
+    border-radius: 5px;
+    left: 13%;
+    top: 50%;
+    transform: translate(-45%,-50%);
+    margin: 2%;
+    
+}
+button:hover{
+    background-color: red; 
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    transition: color 0.3s ease-in-out; 
+    cursor: pointer;
+}
+.login{
+    position: relative;
+    left: 0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+footer{
+    text-align: center;
+}

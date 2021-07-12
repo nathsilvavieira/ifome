@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilocadastro.css">
+    <link rel="shortcut icon" href="img/apple-icon.png" type="image/x-icon">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a class= "itens" target="_blank" href="index.html">Home</a>
+            <a class= "itens" target="_blank" href="entra.html">Ja sou cadastrado</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+        <h1>Cadastro</h1>
+        <form  class="formulario" method="GET" action="index.html">
+            <label for="nome">Nome Completo</label>
+            <input  class="login"  type="text" name="nome" placeholder="Digite seu nome">
+            <br>
+            <label for="cpf">CPF</label>
+            <input  class="login" type="text" name="cpf" placeholder="000.000.000-00">
+            <br>
+            <label for="endereco">Endereco</label>
+            <input  class="login" type="text" name="endereco" placeholder="Rua abc,123">
+            <br>
+            <label for="cep">CEP</label>
+            <input  class="login" type="text" name="cep" placeholder="00000-000">
+            <br>
+            <label for="email">E-mail</label>
+            <input  class="login"  type="email" name="email" placeholder="email@email.com">
+            <br>
+            <label for="senha">Senha</label>
+            <input  class="login" type="password" name="senha" placeholder="******">
+            <br>
+            <label for="nascimento">Data de Nascimento</label>
+            <input  class="login" type="date" name="data" value="2021-06-27" min="1910-10-05" max="2050-10-05">
+            <br>
+            <label for="conectado">Manter conectado</label>
+            <input  class="login" type="checkbox" id="conectado" name="entrada" value="conectado">
+            <label for="solicitar">Receber ofertas</label>
+            <input  class="login" type="checkbox" id="solicitar" name="entrada" value="solicitar" checked>
+            <br>
+            <br>
+            <button type="submit">entrar</button> 
+            <button type="cancelar">cancelar</button> 
+        </form>  
+        </div>
+    </main>
+    <footer>
+        <h2>Nathalia Vieira</h2>
+        <p>Copyright</p>
+    </footer>
+</body>
+</html>
