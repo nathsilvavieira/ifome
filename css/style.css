@@ -8,9 +8,9 @@ body{
     scroll-behavior: smooth;
     font-family: "SulSans", Helvetica, sans-serif;
 }
-header{
+header {
     background-color: red;
-    padding: 29px;
+    padding: 5%;
     text-align: left;
     width: 100%;
 }
@@ -48,9 +48,9 @@ a:hover{
     position: absolute;
     border-radius: 5%;
     border: 2px black;
-    width: 89px;
+    width: 10%;
     right: 5%;
-    top: 15%;
+    top: 132%;
 }
 section{
     width: 33%;
@@ -67,12 +67,18 @@ button{
     color: white;
     background-color: red;
     border-radius: 5%;
-    padding: 12px 50px;
+    padding: 12px 30px;
     cursor: pointer;
 }
-.carrinho{
+.img-carrinho {
     position: absolute;
-    width: 20px;
-    top: 15%;
-    right: 15%;
+    margin: 6px;
+    width: 16px;
+    top: 114%;
+    right: 16%;
+}
+.img-footer{
+    display: flex;
+    padding: 10%;
+    width: 100%;
 }
