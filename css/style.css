@@ -9,17 +9,20 @@ body{
     font-family: "SulSans", Helvetica, sans-serif;
 }
 header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: red;
     padding: 5%;
     text-align: left;
     width: 100%;
 }
 nav{
-    position: absolute;
-    text-align: center;
+    /*position: absolute;
+    /text-align: center;
     text-decoration: none;
     top: 8%;
-    right: 5%;
+    right: 5%;*/
 }
 a{
     text-decoration: none;
@@ -33,6 +36,10 @@ a:hover{
     color:red;
     background-color: white;
 }
+/*.display{
+    display: flex;
+    justify-content: end;
+}*/
 .itens{
     margin-left: 10px;
 }
@@ -44,14 +51,7 @@ a:hover{
     width:100%;
     padding: 10%;
 }
-#procurar{
-    position: absolute;
-    border-radius: 5%;
-    border: 2px black;
-    width: 10%;
-    right: 5%;
-    top: 132%;
-}
+
 section{
     width: 33%;
     height: 400px;
@@ -70,13 +70,21 @@ button{
     padding: 12px 30px;
     cursor: pointer;
 }
-.img-carrinho {
+/*#procurar{
+    position: absolute;
+    border-radius: 5%;
+    border: 2px black;
+    width: 40%;
+    right: 6%;
+    top: 132%;
+}*/
+/*.img-carrinho {
     position: absolute;
     margin: 6px;
     width: 16px;
     top: 114%;
-    right: 16%;
-}
+    right: 46%;
+}*/
 .img-footer{
     display: flex;
     padding: 10%;
